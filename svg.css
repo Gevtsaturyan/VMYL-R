@@ -1,0 +1,11 @@
+.a1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    position: relative;
+}
+.h1{
+    transform: rotate(45deg);
+    position: absolute;
+    width: 100%;
+}

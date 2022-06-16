@@ -1,0 +1,1028 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+
+    width: 100%;
+}
+.header_img{
+    background-image: url(img/abstract-blue-magenta-16x9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+    width: 100%;
+}
+.nav{
+    position: relative;
+    z-index: 1;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 50px 80px;
+    
+
+}
+#nav_style{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    background-color: white;
+    top:-120px;
+    position: fixed;
+}
+    
+.nav_menu{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.divstrel{
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 600px;
+    animation: strel 2s linear infinite;
+}
+
+.divstrel a{
+    color: whitesmoke;
+}
+@keyframes strel{
+    0%{ top:500px;opacity: 0;}
+    50%{ top: 600px; opacity: 1;}
+    100%{ top:500px;opacity: 0;}
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background-image: url(./img/IMG_20220615_124012.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pageName{
+    color: wheat;
+    font-size: 40px;
+    
+
+}
+.aa1{
+    opacity: 0;
+    
+}
+.aa1:hover{
+    opacity: 1;
+}
+.pageName:hover~.aa1{
+    opacity: 1;
+}
+
+.nav_icon{
+    margin:-10px -15px;
+    font-size: 40px;
+    color: wheat;
+}
+.nav_icon:hover{
+    font-size: 45px;
+}
+.menu{
+    position: absolute;
+    height: 680px;
+    width: 350px;
+    background-color: #07002D;
+    border: 1px solid ;
+    right: -250px;
+    display: none;
+    position: fixed;
+    z-index: 2;
+    
+}
+#divx{
+    font-size: 40px;
+    color: white;
+    float: right;
+    margin:20px 30px;
+}
+#divx:hover{
+    font-size: 45px;
+}
+.divamenu{
+    padding: 120px 30px;
+}
+.divamenu h3{
+ 
+    margin: 30px 10px;
+    color: rgb(138, 126, 138);
+}
+.divamenu h3:hover{
+    color: violet;
+}
+.h3_h5 h5 {
+    color: tomato;
+    margin: 15px 20px;
+    
+}
+.h4_h5 h5 {
+    color: tomato;
+    margin: 15px 20px;
+    
+}
+.h3_h5{
+    display: none;
+}
+.h4_h5{
+    display: none;
+}
+.divcenter{
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    display: flex;
+
+}
+.divheard1{
+    width: 8px;
+    height: 200px;
+    background-color: thistle;
+
+}
+.divheard2{
+    margin: -14px 30px; 
+}
+.h2heard{
+    color: thistle;
+    font-size: 60px;
+}
+.h2heard p{
+    margin: 25px 1px;
+}
+.divpor{
+    background-color: violet;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.divpor1{
+    width: 90%;
+    font-size: 20px;
+    color:whitesmoke
+}
+.hodvac1{
+    width: 100%;
+    display: flex;
+    padding: 30px 50px;
+}
+.divhovac1{
+width: 50%;
+}
+.divhovac2{
+    width: 50%;
+    height: 350px;
+    background-image: url(img/div2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divhodvac11{
+    margin: 60px 1px;
+}
+.buttik{
+font-size: 15px;
+padding: 10px;
+margin-top: 30px;
+}
+.buttik a{
+    font-size: 25px;
+}
+.buttik:hover{
+    background-color:violet ;
+    color: white;
+}
+
+.gic1{
+    width: 94%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 3%;
+    margin: 50px 1px;
+}
+.hodvac2{
+    width: 100%;
+    display: flex;
+    padding: 120px 50px;
+
+}
+.divhodvac3{
+    background-image: url(img/div3.jpg);
+    width:50% ;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divhodvac4{
+    width: 50%;
+    padding: 0px 28px;
+}
+.divhodvac4 b{
+   font-size: 38px;
+   color: #07002D;
+  
+}
+.divhodvac5 p{
+    margin: 25px 1px;
+    font-size: 18px;
+}
+.buttik2{
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    transition: 0.5s ;
+    }
+.buttik2 a{
+    font-size: 25px;
+    transition: 0.5s ;
+}
+.buttik2:hover{
+ background-color:violet ;
+    color: white;
+    transition: 0.5s ;
+ }
+.gic2{
+    width: 94%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 3%;
+    margin: 45px 0px;
+    
+}
+.divej3{
+    width: 100%;
+    margin: 200px 0px;
+    padding: 0%  3%;
+}
+.ej3grv{
+    width: 800px;
+    color: #07002D;
+    font-size: 30px;
+}
+.ej3grv2{
+    font-size: 19px;
+    margin: 30px 0px;
+}
+.divnk{
+    width: 100%;
+display: flex;
+justify-content: space-around;
+}
+.divnk1{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.divnk2{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/w2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.divnk3{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/w3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.divnk1:hover{
+    width: 101%;
+    height: 233px;
+
+}
+
+.divnk1:hover~.h3nk1{
+    color: violet;
+}
+.divnk2:hover{
+    width: 101%;
+    height: 233px;
+
+}
+
+.divnk2:hover~.h3nk2{
+    color: violet;
+}
+.divnk3:hover{
+    width: 101%;
+    height: 233px;
+
+}
+
+.divnk3:hover~.h3nk3{
+    color: violet;
+}
+.divnk41:hover{
+    width: 101%;
+    height: 233px;
+
+}
+
+.divnk41:hover~.h3nk4{
+    color: violet;
+}
+.divnk51:hover{
+    width: 101%;
+    height: 233px;
+
+}
+
+.divnk51:hover~.h3nk5{
+    color: violet;
+}
+.spannk1{
+    font-size: 20px;
+}
+.spannk2{
+    font-size: 20px;
+}
+.spannk3{
+    font-size: 20px;
+}
+.spannk4{
+    font-size: 20px;
+}
+.spannk5{
+    font-size: 20px;
+}
+
+
+
+.h3nk1{
+    margin: 12px 1px;
+    font-size: 20px;
+}
+.h3nk2{
+    margin: 12px 1px;
+    font-size: 20px;
+}
+.h3nk3{
+    margin: 12px 1px;
+    font-size: 20px;
+}
+.h3nk4{
+    margin: 12px 1px;
+    font-size: 20px;
+}
+.h3nk5{
+    margin: 12px 1px;
+    font-size: 20px;
+}
+.divf{
+    width: 35%;
+    margin: 1px 10px;
+}
+.divg{
+    width: 35%;
+    margin: 1px 10px;
+}
+.divh{
+    width: 35%;
+    margin: 1px 10px;
+}
+.divnka{
+    width: 96%;
+    display: flex;
+    justify-content: space-around;
+}
+.divnk41{
+    background-image: url(img/w4.jpeg);
+    width: 100%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.divnk51{
+    background-image: url(img/w5.jpg);
+    width: 100%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.divnk4{
+    width: 35%;
+    margin: 1px 10px;
+}
+.divnk5{
+    width: 35%;
+    margin: 1px 10px;
+}
+.divnk9999{
+    width: 35%;
+    margin: 1px 10px;
+}
+.hod2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.hodvac3{
+    width: 100%;
+    display: flex;
+}
+.divhodvac6{
+    width: 48%;
+    padding: 0 30px;
+}
+.divsp{
+    margin: 30px 0px;
+}
+.spancho{
+    margin: 30px 0px;
+}
+.divnko{
+    width: 48%;
+}
+.divnko1{
+    width: 100%;
+    height: 380px;
+    background-image: url(img/w6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divhodvac7{
+    width: 100%;
+    display: flex;
+    padding: 300px 30px;
+    margin: 100px 0px;
+    justify-content: space-around;
+}
+.divhodvac71{
+    width: 45%;
+    height: 380px;
+    background-image: url(img/w7.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.divhodvac72{
+    width: 45%;
+}
+.divspano{
+    margin: 65px 1px;
+}
+.gic5{
+    width: 94%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 3%;
+
+}
+.divej7{
+    width: 100%;
+    padding: 0% 3%;
+}
+.divej71{
+    width: 80%;
+    
+
+}
+.divej72{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.divej73{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.divej74{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.divej75{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.divl1{
+    width: 320px;
+    transition: 0.5s ;
+}
+.divl1:hover{
+    color: violet;
+    transition: 0.5s ;
+    
+}
+.divg1:hover{
+    color: violet;
+    transition: 0.5s ;
+    
+}
+
+
+.divl2:hover{
+    color: violet;
+    transition: 0.5s ;
+    
+}
+.divl3:hover{
+    color: violet;
+    transition: 0.5s ;
+    
+}
+.dive1:hover{
+    color: violet;
+    transition: 0.5s ;
+    
+}
+
+.dive2:hover{
+    color: violet;
+    transition: 0.5s ;
+    
+}
+.dive3:hover{
+    color: violet;
+    transition: 0.5s ;
+    
+}
+.divf1:hover{
+    color: violet;
+    transition: 0.5s ;
+    
+}
+
+.divf2:hover{
+    color: violet;
+    transition: 0.5s ;
+   
+}
+.divf3:hover{
+    color: violet;
+    transition: 0.5s ;
+    
+}
+.divl2{
+    width: 320px;
+    transition: 0.5s;
+}
+.divl3{
+    width: 320px;
+    transition: 0.5s;
+}
+.divg1{
+    width: 320px;
+    transition: 0.5s;
+}
+
+.dive1{
+    width: 320px;
+    transition: 0.5s;
+}
+.dive2{
+    width: 320px;
+    transition: 0.5s;
+}
+.dive3{
+    width: 320px;
+    transition: 0.5s;
+}
+.divf1{
+    width: 320px;
+    transition: 0.5s;
+}
+.divf2{
+    width: 320px;
+    transition: 0.5s;
+}
+.divf3{
+    width: 320px;
+    transition: 0.5s;
+}
+.divl11{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/w8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+    transition: 0.5s ;
+    
+}
+.divl11:hover{
+    width: 102%;
+    transition: 0.5s ;
+}
+.divg11{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/w18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+    transition: 0.5s ;
+}
+.divg11:hover{
+    width: 102%;
+    transition: 0.5s ;
+}
+.divl12{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/w9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+    transition: 0.5s ;
+}
+.divl12:hover{
+    width: 102%;
+    transition: 0.5s ;
+}
+.divl13{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/w10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+    transition: 0.5s ;
+}
+.divl13:hover{
+    width: 102%;
+    transition: 0.5s ;
+}
+.dive11{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/w11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+    transition: 0.5s ;
+}
+.dive11:hover{
+    width: 102%;
+    transition: 0.5s ;
+}
+.dive12{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/w12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+    transition: 0.5s ;
+}
+.dive12:hover{
+    width: 102%;
+    transition: 0.5s ;
+}
+.dive13{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/w13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+    transition: 0.5s ;
+}
+.dive13:hover{
+    width: 102%;
+    transition: 0.5s ;
+}
+.divf11{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/w14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+    transition: 0.5s ;
+}
+.divf11:hover{
+    width: 102%;
+    transition: 0.5s ;
+}
+.divf12{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/w15.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+    transition: 0.5s ;
+}
+.divf12:hover{
+    width: 102%;
+    transition: 0.5s ;
+}
+.divf13{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/w16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+    transition: 0.5s ;
+}
+.divf13:hover{
+    width: 102%;
+    transition: 0.5s ;
+}
+.footer{
+    background: #07002D;
+    color: white;
+    display: flex;
+    padding: 5% 2%;
+    margin: 50px 0px;
+}
+.footer_main{
+    width: 50%;
+    
+}
+.footer a{
+    color: rgba(255,255,255,0.5);
+    font-size: 30px;
+    float: left;
+    text-decoration: none;
+}
+.logo_img{
+    background-image: url(img/IMG_20220615_124331.jpg);
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    float: left;
+    margin-right: 10px;
+}
+.footer_menu{
+    display: inline-block;
+    margin: 0 50px;
+    font-weight: 500;
+    line-height: 45px;
+    font-size: 23px;
+    list-style: none;
+    color: #837f96;
+
+}
+#open_menu{
+    border: none;
+    background: #07002d;
+    color: #837f96;
+    font-size: 20px;
+    width: 140px;
+}
+#divabout{
+    display: none;
+}
+#divabout3{
+    display: none;
+}
+.li_color{
+    color: #00d1de;
+}
+ul li:hover{
+    color: #00d1de;
+}
+.footer_main a:hover{
+    color: #00d1de;
+   
+}
+.footer_icons{
+    padding: 0 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_text{
+    text-align: right;
+    color: rgba(255,255,255,0.5);
+    line-height: 35px;
+    margin: 20px 55px;
+}
+.p_hover , .p_color{
+    
+    font-size: 14px;
+}
+
+.p_hover:hover{
+    color: #00d1de;
+}
+
+@media only screen and (max-width:900px){
+
+    .divhovac1{width: 80%;}
+    .divhovac2 {
+        width: 90%;
+        height: 300px;
+        margin: 14px 30px;;
+    }
+    .hodvac1{
+        display: block;
+    }
+    .hodvac3{flex-wrap: wrap-reverse;}
+    .divnko{
+        width: 700px;
+        margin: 20px 30px;
+    }
+    .hodvac2{display: block;}
+    .divhodvac3{width: 96%;margin: 30px 0;}
+    .divhodvac4{width: 80%;}
+    .divej3 {
+        margin: 150px 0px;
+    }
+    .divhodvac6{width: 85%;}
+    .divhodvac7{padding: 30px 30px;margin: 0 0;display: block;}
+    .divhodvac71{width: 95%;}
+    .divhodvac72{width: 86%;margin-top: 20px;}
+}
+@media only screen and (max-width:750px){
+    .divnk{display: block;}
+    .divnk div{width: 96%; margin-top: 20px;}
+    .divnka{display: block;}
+    .divnka div{width: 96%; margin-top: 20px;}
+    .aa1 {
+    opacity: 0;
+    font-size: 12px;
+    }
+
+}
+@media only screen and (max-width:600px){
+    .hodvac1{padding: 30px 0;}
+    .pageName{font-size: 30px;}
+    .logo{    height: 40px;
+        width: 50px;}
+    .header_img {
+        height: 550px;
+        }
+}
+@media only screen and (max-width:480px){
+.navbar{padding: 50px 15px;}
+.header_img {
+    height: 500px;
+    }
+    .h2heard {
+        font-size: 35px;
+    }
+    .divpor1 {
+        font-size: 15px;
+    }
+    .divhovac2{margin: 15px 0px; height: 200px;}
+    .divhodvac11{text-align: center;}
+    .hodvac2{padding: 120px 5px;}
+    .divhodvac3 {
+        width: 100%;
+        height: 250px;
+    }
+    .divhodvac4 b {
+        font-size: 30px;
+    }
+    .divhodvac4{text-align: center;}
+    .divnko1 {
+        height: 300px;
+    }
+    .divhodvac71{height: 300px;}
+    .divej71 {
+         text-align: center;
+        font-size: 15px;
+    }
+    .footer {
+        display: block;
+        height: 100%;
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width:340px){
+    .header_img {
+        height: 350px;
+    }
+    .divcenter {
+        top: 140px;
+        left: 30px;
+    }
+    .h2heard {
+        font-size: 30px;
+    }
+    .logo {
+        height: 25px;
+        width: 40px;
+    }
+    .pageName {
+        font-size: 25px;
+    }
+    .fa-align-justify:before {
+        font-size: 30px;
+    }
+    .divamenu {
+        padding: 120px 100px;
+        font-size: 15px;
+    }
+    .navbar {
+        padding: 35px 15px;
+    }
+    #nav_style {
+        height: 60px;
+    }
+    .hodvac1 {
+        padding: 20px 45px;
+    }
+    .hodvac2{margin-left: 10px;}
+    .divhovac2 {
+        margin: 0px -25px;
+        height: 150px;
+        width: 125%;
+    }
+    .divhodvac3 {
+        width: 100%;
+        height: 200px;
+    }
+    .divhodvac4 b {
+        font-size: 25px;
+    }
+    .divhodvac5 p {
+        font-size: 15px;
+    }
+    .buttik2 a {
+        font-size: 20px;
+    }
+    .ej3grv {
+        font-size: 20px;
+    }
+    .ej3grv2 {
+        font-size: 15px;
+    }
+    .divnko1 {
+        height: 200px;
+        width: 110%;
+    }
+    .divhodvac71 {
+        width: 100%;
+        height: 200px;
+    }
+    .divspano {
+        font-size: 15px;
+    }
+    .divej71 {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .footer a {
+        font-size: 15px;
+    }
+    .logo_img {
+        width: 20px;
+        height: 20px;
+    }
+    .footer_menu {
+        text-align: center;
+        font-size: 15px;
+        margin: 0 100px;
+    }
+    .footer_text {
+        line-height: 40px;
+        margin: 20px -100px;
+    }
+    .p_hover, .p_color {
+        font-size: 10px;
+    }
+    .footer_icons {
+        width: 200%;
+    }
+}
